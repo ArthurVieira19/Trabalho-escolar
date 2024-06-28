@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    background-color: white;
+}
+
+.menu ul li{
+    background-color: #D9A441;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    position: relative;
+}
+.menu ul li:hover{
+    background-color: #D9A441;
+}
+.menu ul{
+    padding: 0px;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul li:hover{
+    background-color: #a87f33;
+}
+.menu a{
+    color: black;
+    text-decoration:none ;
+}
+.menu img{
+    width: 45px;
+    height: 30px;
+    margin-left: -70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+hr{
+    border-color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    position:relative;
+}
+
+#title{
+    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    color: #130000;
+    text-align: center;
+    text-shadow: 0px 0px 5px #D9A441;
+}
+#texto{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 140%;
+    color: #130000;
+    text-align: justify;
+}
+.bola{
+    display: flex;
+  justify-content: center;
+}
+.bola img{
+    margin: 20px;
+    width: 20%;
+}
+#rodapé{
+    text-align: center;
+    font-size: 110%;
+    color: #000000;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #D9A441;
+    position: relative;
+}
+.ancora img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ancora {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-bottom: 5px;
+}
+#lista{
+    text-align: center;
+    font-size: 25px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 300px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.container {
+    justify-items: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
